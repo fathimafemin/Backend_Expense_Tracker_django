@@ -1,21 +1,15 @@
-# Python
+# Ignore the virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore Python bytecode
 __pycache__/
 *.pyc
 
-# Virtual environment
-.venv/
-env/
-
-# Django
+# Ignore the database (you usually want a fresh one on other machines)
 db.sqlite3
-media/
-staticfiles/
 
-# Environment variables
+# Ignore environment variables (security!)
 .env
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store

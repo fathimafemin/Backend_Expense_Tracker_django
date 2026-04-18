@@ -9,4 +9,4 @@ class Expense(models.Model):
     description = models.TextField(blank=True)
 
     def __str__(self):
-        return self.name 
+       return  f"{self.category} - {self.amount}"
